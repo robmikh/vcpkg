@@ -296,6 +296,7 @@ triplets/*
 !triplets/arm64-windows.cmake
 !triplets/x64-linux.cmake
 !triplets/x64-osx.cmake
+!triplets/arm-linux.cmake
 *.exe
 *.zip
 
