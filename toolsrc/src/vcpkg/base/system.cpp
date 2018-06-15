@@ -87,7 +87,7 @@ namespace vcpkg::System
         return CPUArchitecture::X64;
 #elif defined(__x86__) || defined(_M_X86)
         return CPUArchitecture::X86;
-#elif defined(__arm__)
+#elif defined(__arm__) || defined(_M_ARM)
         return CPUArchitecture::ARM;
 #else
 #error "Unknown host architecture"
